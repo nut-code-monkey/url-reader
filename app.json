@@ -1,0 +1,19 @@
+{
+  "name": "URL reader",
+  "description": "",
+  "image": "heroku/python",
+  "repository": "https://github.com/nut-code-monkey/url-reader",
+  "keywords": ["python" ],
+  "addons": [],
+  "env": {
+    "SECRET_KEY": {
+      "description": "The secret key for the Django application.",
+      "generator": "secret"
+    }
+  },
+  "environments": {
+    "test": {
+      "scripts": {}
+    }
+  }
+}
